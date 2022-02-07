@@ -10,9 +10,25 @@ class HorizontalList extends StatelessWidget {
         scrollDirection: Axis.horizontal,
         children: <Widget>[
           Brand(
-            image_location: 'images/carousel/066.jpg',
-            image_caption: '',
-          )
+            image_location: 'images/Logos/jordan.jpg',
+            image_caption: 'Jordan',
+          ),
+          Brand(
+            image_location: 'images/Logos/adidas.jpg',
+            image_caption: 'Adidas',
+          ),
+          Brand(
+            image_location: 'images/Logos/nike.jpg',
+            image_caption: 'Nike',
+          ),
+          Brand(
+            image_location: 'images/Logos/vanss.png',
+            image_caption: 'Vans',
+          ),
+          Brand(
+            image_location: 'images/Logos/Timberl.jpg',
+            image_caption: 'Timbs',
+          ),
         ],
       ),
     );
@@ -39,13 +55,15 @@ class Brand extends StatelessWidget {
         child: Container(
           width: 100.0,
           child: ListTile(
-            title: Image.asset(
-              image_location,
-              width: 100.0,
-              height: 80.0,
-            ),
-            subtitle: Text(image_caption),
-          ),
+              title: Image.asset(
+                image_location,
+                width: 100.0,
+                height: 80.0,
+              ),
+              subtitle: Container(
+                alignment: Alignment.topCenter,
+                child: Text(image_caption),
+              )),
         ),
       ),
     );
