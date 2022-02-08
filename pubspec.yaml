@@ -79,6 +79,7 @@ flutter:
     - images/Logos/vanss.png
     - images/Logos/Timberl.jpg
     - images/Logos/nike.jpg
+    - images/Products/air-jordan-1-mid-shoe.jfif
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

@@ -3,6 +3,7 @@ import 'package:carousel_pro/carousel_pro.dart';
 
 //Own Imports
 import 'package:kicksdotcom/components/horizontal_list.dart';
+import 'package:kicksdotcom/components/products.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -184,9 +185,13 @@ class _HomePageState extends State<HomePage> {
               'Recent Products',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
-
-            //Grid Begins
           ),
+          //Grid Begins
+
+          Container(
+            height: 300.0,
+            child: Products(),
+          )
         ],
       ),
     );
