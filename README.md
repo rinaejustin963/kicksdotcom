@@ -1,6 +1,6 @@
 # kicksdotcom
 
-KicksDotCom App at Retail aims not only to provide an online shopping experience, but also to enhance the in-store shopping experience with all the benefits of online shopping.
+KicksDotCom App Retail aims not only to provide an online shopping experience, but also to enhance the in-store shopping experience with all the benefits of online shopping.
 
 ## Getting Started
 
